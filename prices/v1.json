@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-12",
   "revision": 1,
   "platforms": [
     {
@@ -1037,7 +1037,7 @@
       "name": "Playground",
       "category": "Image",
       "color": "#84cc16",
-      "connector": null,
+      "connector": "playground",
       "prepaid": false,
       "parent": null,
       "wallet_label": null,
