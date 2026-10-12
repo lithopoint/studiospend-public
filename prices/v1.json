@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "generated_at": "2026-10-12",
-  "revision": 1,
+  "revision": 2,
   "platforms": [
     {
       "id": "runway",
@@ -2356,7 +2356,7 @@
       "parent": null,
       "wallet_label": null,
       "unit": "Flow credits",
-      "unit_note": "Veo 3.1 Fast ≈ 20 credits per clip",
+      "unit_note": "Per clip: Veo 3.1 Fast 20 credits (10 on Ultra) · Quality 100 · Gemini Omni Flash 15–30 by length (4–10 s)",
       "pricing_url": "https://gemini.google/subscriptions/",
       "plans": [
         {
@@ -2399,9 +2399,23 @@
       "parent": null,
       "wallet_label": null,
       "unit": "usage",
-      "unit_note": "One weekly usage pool across chat, Imagine (image and video) and voice · prices not shown logged out",
+      "unit_note": "One weekly usage pool across chat, Imagine (image and video) and voice · prices not shown logged out · X Premium bundles a smaller Grok allowance",
       "pricing_url": "https://grok.com/plans",
       "plans": [
+        {
+          "name": "X Premium (Grok inside X)",
+          "monthly": 8.0,
+          "annual": 7.0,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "X Premium+ (Grok inside X)",
+          "monthly": 40.0,
+          "annual": 32.92,
+          "units_per_month": null,
+          "verified": false
+        },
         {
           "name": "SuperGrok Lite",
           "monthly": 10.0,
