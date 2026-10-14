@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-12",
-  "revision": 2,
+  "generated_at": "2026-10-14",
+  "revision": 1,
   "platforms": [
     {
       "id": "runway",
@@ -3219,6 +3219,387 @@
           "model": "FLUX 1.1 Pro",
           "cost": 0.04,
           "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "app_url": "https://higgsfield.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 8.75,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 2.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "pollo",
+      "app_url": "https://pollo.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Pollo 2.5 · 720p",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 9.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "veed",
+      "app_url": "https://www.veed.io",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "VEED Motion",
+          "cost": 40.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.2",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "FLUX.2 Pro",
+          "cost": 15.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "kie",
+      "app_url": "https://kie.ai/market",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 70.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 90.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana",
+          "cost": 4.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 18.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale",
+          "model": "Recraft Crisp upscale",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "ElevenLabs Turbo 2.5",
+          "cost": 6.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "Suno",
+          "cost": 12.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "runware",
+      "app_url": "https://runware.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 0.42,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 0.56,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.1.1 Pro",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 0.138,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale",
+          "model": "Real-ESRGAN",
+          "cost": 0.0013,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "MiniMax Speech 2.8 Turbo",
+          "cost": 0.06,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "MiniMax Music 2.6",
+          "cost": 0.15,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "model3d",
+          "model": "Hunyuan 3D 3.1 Rapid",
+          "cost": 0.225,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "bfl",
+      "app_url": "https://dashboard.bfl.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "FLUX 3 Video · hd",
+          "cost": 0.85,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "FLUX 3 Video · fhd",
+          "cost": 1.45,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.1.1 [pro]",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "FLUX.1 Kontext [max]",
+          "cost": 0.08,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "playground",
+      "app_url": "https://playgroundai.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "GPT Image 2.5",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 4.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "mage_space",
+      "app_url": "https://www.mage.space",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Mango 3 · 2K",
+          "cost": 135.0,
+          "verified": true,
+          "unlimited_on": [
+            "Pro",
+            "Pro Plus",
+            "Max"
+          ],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "app_url": "https://openrouter.ai/models",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Wan 3.0 · 720p",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Wan 3.0 · 1080p",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Seedream 4.5",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 0.1344,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "ElevenLabs Multilingual v2",
+          "cost": 0.04,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "Lyria 3 Pro",
+          "cost": 0.08,
+          "verified": false,
           "unlimited_on": [],
           "relaxed": false
         }
