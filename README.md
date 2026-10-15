@@ -1,7 +1,7 @@
 # StudioSpend public files
 
-Published from the public repo `vitruvianlabs/studiospend-public` by Cloudflare Pages
-(Cloudflare account on the Vitruvian Labs identity, project `studiospend-files`, `https://files.studiospend.com/`; the old `studiospend-public.pages.dev` is a frozen copy kept for a while). This folder in the private repo is
+Published from the public repo `lithopoint/studiospend-public` by Cloudflare Pages
+(Cloudflare account on the company identity, project `studiospend-files`, `https://files.studiospend.com/`; the old `studiospend-public.pages.dev` is a frozen copy kept for a while). This folder in the private repo is
 the source of truth; copy changes there.
 
 - `oauth/client-metadata.json` — StudioSpend's OAuth Client ID Metadata Document. Its URL
