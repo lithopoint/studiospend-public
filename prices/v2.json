@@ -1,0 +1,4238 @@
+{
+  "schema": 2,
+  "generated_at": "2026-10-21",
+  "revision": 2,
+  "platforms": [
+    {
+      "id": "runway",
+      "name": "Runway",
+      "category": "Video",
+      "color": "#d4d4d8",
+      "connector": "runway",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Gen-4.5 ≈ 12 credits/sec · top-ups $10 per 1,000",
+      "pricing_url": "https://runwayml.com/pricing",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 15.0,
+          "annual": 12.0,
+          "units_per_month": 625.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 35.0,
+          "annual": 28.0,
+          "units_per_month": 2250.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 95.0,
+          "annual": 76.0,
+          "units_per_month": 9500.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "category": "Video",
+      "color": "#34d399",
+      "connector": "higgsfield",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 2 credits per Nano Banana Pro image, ≈ 25 per Seedance video",
+      "pricing_url": "https://higgsfield.ai/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 19.0,
+          "annual": null,
+          "units_per_month": 270.0,
+          "verified": false
+        },
+        {
+          "name": "Plus",
+          "monthly": 49.0,
+          "annual": 39.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 129.0,
+          "annual": 99.0,
+          "units_per_month": 3000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "kling",
+      "name": "Kling AI",
+      "category": "Video",
+      "color": "#60a5fa",
+      "connector": "kling",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 1 credit per image, ≈ 20 per 720p video",
+      "pricing_url": "https://kling.ai/membership/membership-plan",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 10.0,
+          "annual": 6.6,
+          "units_per_month": 660.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 37.0,
+          "annual": 24.42,
+          "units_per_month": 3000.0,
+          "verified": true
+        },
+        {
+          "name": "Premier",
+          "monthly": 92.0,
+          "annual": 60.72,
+          "units_per_month": 8000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 180.0,
+          "annual": null,
+          "units_per_month": 26000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "luma",
+      "name": "Luma Dream Machine",
+      "category": "Video",
+      "color": "#a78bfa",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://lumalabs.ai/dream-machine/pricing",
+      "plans": [
+        {
+          "name": "Lite",
+          "monthly": 9.99,
+          "annual": 6.66,
+          "units_per_month": 3200.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 29.99,
+          "annual": 19.99,
+          "units_per_month": 10000.0,
+          "verified": true
+        },
+        {
+          "name": "Unlimited",
+          "monthly": 94.99,
+          "annual": 63.33,
+          "units_per_month": 10000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "name": "Pika",
+      "category": "Video",
+      "color": "#f9a8d4",
+      "connector": "pika",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Seedance 720p 5s ≈ 122 credits · top-ups 60 credits per $1",
+      "pricing_url": "https://pika.art/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 900.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 35.0,
+          "annual": 28.0,
+          "units_per_month": 3150.0,
+          "verified": true
+        },
+        {
+          "name": "Fancy",
+          "monthly": 95.0,
+          "annual": 76.0,
+          "units_per_month": 8550.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hailuo",
+      "name": "Hailuo (MiniMax)",
+      "category": "Video",
+      "color": "#fb7185",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://hailuoai.video/subscribe",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 14.99,
+          "annual": null,
+          "units_per_month": 1000.0,
+          "verified": false
+        },
+        {
+          "name": "Pro",
+          "monthly": 54.99,
+          "annual": null,
+          "units_per_month": 4500.0,
+          "verified": false
+        },
+        {
+          "name": "Master",
+          "monthly": 119.99,
+          "annual": null,
+          "units_per_month": 10000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "name": "HeyGen",
+      "category": "Video",
+      "color": "#818cf8",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.heygen.com/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 29.0,
+          "annual": 24.0,
+          "units_per_month": 600.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 49.0,
+          "annual": null,
+          "units_per_month": 1000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "category": "Video",
+      "color": "#38bdf8",
+      "connector": "synthesia",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 120 credits per minute of avatar video",
+      "pricing_url": "https://www.synthesia.io/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 29.0,
+          "annual": 18.0,
+          "units_per_month": 1200.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 89.0,
+          "annual": 64.0,
+          "units_per_month": 3600.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "hedra",
+      "name": "Hedra",
+      "category": "Video",
+      "color": "#facc15",
+      "connector": "hedra",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.hedra.com/pricing",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 15.0,
+          "annual": null,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 30.0,
+          "annual": null,
+          "units_per_month": 5400.0,
+          "verified": true
+        },
+        {
+          "name": "Professional",
+          "monthly": 75.0,
+          "annual": null,
+          "units_per_month": 14400.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "captions",
+      "name": "Captions",
+      "category": "Video",
+      "color": "#f472b6",
+      "connector": "captions",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.captions.ai/pricing",
+      "plans": [
+        {
+          "name": "Max",
+          "monthly": 24.99,
+          "annual": null,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Frontier 2x",
+          "monthly": 69.99,
+          "annual": null,
+          "units_per_month": 1400.0,
+          "verified": true
+        },
+        {
+          "name": "Frontier 4x",
+          "monthly": 139.99,
+          "annual": null,
+          "units_per_month": 2800.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dreamina",
+      "name": "Dreamina",
+      "category": "Video",
+      "color": "#2dd4bf",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://dreamina.capcut.com",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 5.0,
+          "annual": null,
+          "units_per_month": 1575.0,
+          "verified": false
+        },
+        {
+          "name": "Pro",
+          "monthly": 11.0,
+          "annual": null,
+          "units_per_month": 3885.0,
+          "verified": false
+        },
+        {
+          "name": "Max",
+          "monthly": 42.0,
+          "annual": null,
+          "units_per_month": 8645.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "pixverse",
+      "name": "PixVerse",
+      "category": "Video",
+      "color": "#c084fc",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://app.pixverse.ai/subscribe",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": null,
+          "annual": 8.0,
+          "units_per_month": 1200.0,
+          "verified": false
+        },
+        {
+          "name": "Pro",
+          "monthly": null,
+          "annual": 24.0,
+          "units_per_month": 6000.0,
+          "verified": false
+        },
+        {
+          "name": "Premium",
+          "monthly": null,
+          "annual": 48.0,
+          "units_per_month": 15000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "vidu",
+      "name": "Vidu",
+      "category": "Video",
+      "color": "#4ade80",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.vidu.com/pricing",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 800.0,
+          "verified": false
+        },
+        {
+          "name": "Premium",
+          "monthly": 35.0,
+          "annual": 28.0,
+          "units_per_month": 4000.0,
+          "verified": false
+        },
+        {
+          "name": "Ultimate",
+          "monthly": 99.0,
+          "annual": 79.0,
+          "units_per_month": 8000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "kaiber",
+      "name": "Kaiber",
+      "category": "Video",
+      "color": "#fbbf24",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://kaiber.ai/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 29.0,
+          "annual": 23.25,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 99.0,
+          "annual": 79.0,
+          "units_per_month": 5000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ltx_studio",
+      "name": "LTX Studio",
+      "category": "Video",
+      "color": "#6d28d9",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Formerly “computing seconds”, same balance · Lite is personal use only",
+      "pricing_url": "https://ltx.io/studio/pricing",
+      "plans": [
+        {
+          "name": "Lite",
+          "monthly": 15.0,
+          "annual": 12.0,
+          "units_per_month": 8000.0,
+          "verified": true
+        },
+        {
+          "name": "Standard",
+          "monthly": 35.0,
+          "annual": 28.0,
+          "units_per_month": 28000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 125.0,
+          "annual": 100.0,
+          "units_per_month": 110000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ltx_studio_api",
+      "name": "LTX API",
+      "category": "Model hubs",
+      "color": "#7c3aed",
+      "connector": null,
+      "prepaid": true,
+      "parent": "ltx_studio",
+      "wallet_label": "API wallet",
+      "unit": "USD",
+      "unit_note": "Prepaid API credits; add funds and check the balance in the Developer Console (console.ltx.io)",
+      "pricing_url": "https://docs.ltx.io/pricing",
+      "plans": []
+    },
+    {
+      "id": "invideo",
+      "name": "Invideo AI",
+      "category": "Video",
+      "color": "#4f46e5",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Seedance 2.0 Fast ≈ 30 credits per 5s video · no rollover",
+      "pricing_url": "https://invideo.io/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 20.0,
+          "annual": 20.0,
+          "units_per_month": 400.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 60.0,
+          "annual": 50.0,
+          "units_per_month": 2000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 150.0,
+          "annual": 100.0,
+          "units_per_month": 5000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "pollo",
+      "name": "Pollo AI",
+      "category": "Video",
+      "color": "#8b5cf6",
+      "connector": "pollo",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 5 credits per video · no rollover · annual price shown only as a sale",
+      "pricing_url": "https://pollo.ai/pricing",
+      "plans": [
+        {
+          "name": "Lite",
+          "monthly": 15.0,
+          "annual": null,
+          "units_per_month": 400.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 29.0,
+          "annual": null,
+          "units_per_month": 800.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 129.0,
+          "annual": null,
+          "units_per_month": 5000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "wan",
+      "name": "Wan (Alibaba)",
+      "category": "Video",
+      "color": "#6366f1",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 5 credits per video · subscription is for create.wan.video only",
+      "pricing_url": "https://create.wan.video/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 10.0,
+          "annual": 5.0,
+          "units_per_month": 300.0,
+          "verified": true
+        },
+        {
+          "name": "Premium",
+          "monthly": 40.0,
+          "annual": 20.0,
+          "units_per_month": 1200.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "fableform",
+      "name": "Fableform",
+      "category": "Video",
+      "color": "#38bdf8",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "project license",
+      "unit_note": "Waitlist only · custom per-project license via sales, no monthly plans",
+      "pricing_url": "https://fableform.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "midjourney",
+      "name": "Midjourney",
+      "category": "Image",
+      "color": "#7a82fb",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "fast hours",
+      "unit_note": "≈ 1 GPU-minute per image grid · extra fast time $4/hr",
+      "pricing_url": "https://docs.midjourney.com/hc/en-us/articles/27870484040333-Comparing-Midjourney-Plans",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 3.3,
+          "verified": true
+        },
+        {
+          "name": "Standard",
+          "monthly": 30.0,
+          "annual": 24.0,
+          "units_per_month": 15.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 60.0,
+          "annual": 48.0,
+          "units_per_month": 30.0,
+          "verified": true
+        },
+        {
+          "name": "Mega",
+          "monthly": 120.0,
+          "annual": 96.0,
+          "units_per_month": 60.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "magnific",
+      "name": "Magnific (Freepik)",
+      "category": "Image",
+      "color": "#fb923c",
+      "connector": "magnific",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Credits are a yearly pool (shown here ÷ 12) · Nano Banana 2 image ≈ 75 credits",
+      "pricing_url": "https://www.magnific.com/pricing",
+      "plans": [
+        {
+          "name": "Premium",
+          "monthly": 20.0,
+          "annual": 14.5,
+          "units_per_month": 20000.0,
+          "verified": true
+        },
+        {
+          "name": "Premium+",
+          "monthly": 45.0,
+          "annual": 33.75,
+          "units_per_month": 50000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro Starter",
+          "monthly": 110.0,
+          "annual": 82.5,
+          "units_per_month": 125000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "openart",
+      "name": "OpenArt",
+      "category": "Image",
+      "color": "#f472b6",
+      "connector": "openart",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 1 credit per image, ≈ 80 per video",
+      "pricing_url": "https://openart.ai/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 14.0,
+          "annual": 13.0,
+          "units_per_month": 4000.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 34.0,
+          "annual": 27.0,
+          "units_per_month": 12000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 56.0,
+          "annual": 44.0,
+          "units_per_month": 24000.0,
+          "verified": true
+        },
+        {
+          "name": "Wonder",
+          "monthly": 240.0,
+          "annual": 175.0,
+          "units_per_month": 106000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "recraft",
+      "name": "Recraft",
+      "category": "Image",
+      "color": "#22d3ee",
+      "connector": "recraft",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.recraft.ai/pricing",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 12.0,
+          "annual": 10.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro 2K",
+          "monthly": 20.0,
+          "annual": 16.0,
+          "units_per_month": 2000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "leonardo",
+      "name": "Leonardo.Ai",
+      "category": "Image",
+      "color": "#f59e0b",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "fast tokens",
+      "unit_note": null,
+      "pricing_url": "https://leonardo.ai/pricing/",
+      "plans": [
+        {
+          "name": "Essential",
+          "monthly": 12.0,
+          "annual": 10.0,
+          "units_per_month": 8500.0,
+          "verified": true
+        },
+        {
+          "name": "Premium",
+          "monthly": 30.0,
+          "annual": 24.0,
+          "units_per_month": 25000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultimate",
+          "monthly": 60.0,
+          "annual": 48.0,
+          "units_per_month": 60000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "ideogram",
+      "name": "Ideogram",
+      "category": "Image",
+      "color": "#e879f9",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "priority credits",
+      "unit_note": null,
+      "pricing_url": "https://ideogram.ai/pricing",
+      "plans": [
+        {
+          "name": "Plus",
+          "monthly": 20.0,
+          "annual": 15.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 60.0,
+          "annual": 42.0,
+          "units_per_month": 3500.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "krea",
+      "name": "Krea",
+      "category": "Image",
+      "color": "#a3a3a3",
+      "connector": "krea",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "compute units",
+      "unit_note": "Pro's 20,000 units ≈ 257 Nano Banana 2 images or 83 Seedance videos",
+      "pricing_url": "https://www.krea.ai/pricing",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 9.0,
+          "annual": 5.0,
+          "units_per_month": 5000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 35.0,
+          "annual": 21.0,
+          "units_per_month": 20000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 105.0,
+          "annual": 63.0,
+          "units_per_month": 60000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "melius",
+      "name": "Melius",
+      "category": "Image",
+      "color": "#8b5cf6",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Creator's 20,000 credits ≈ 300 images or 14 videos (Melius's own estimate)",
+      "pricing_url": "https://melius.com/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 20.0,
+          "annual": 17.0,
+          "units_per_month": 20000.0,
+          "verified": false
+        },
+        {
+          "name": "Growth",
+          "monthly": 50.0,
+          "annual": 43.0,
+          "units_per_month": 50000.0,
+          "verified": false
+        },
+        {
+          "name": "Professional",
+          "monthly": 110.0,
+          "annual": 93.0,
+          "units_per_month": 110000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "adobe_firefly",
+      "name": "Adobe Firefly",
+      "category": "Image",
+      "color": "#ef4444",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "generative credits",
+      "unit_note": "≈ 100 credits per 5-second video; standard images don't use credits",
+      "pricing_url": "https://www.adobe.com/products/firefly/plans.html",
+      "plans": [
+        {
+          "name": "Firefly Standard",
+          "monthly": 9.99,
+          "annual": null,
+          "units_per_month": 2000.0,
+          "verified": true
+        },
+        {
+          "name": "Firefly Pro",
+          "monthly": 19.99,
+          "annual": null,
+          "units_per_month": 4000.0,
+          "verified": true
+        },
+        {
+          "name": "Firefly Pro Plus",
+          "monthly": 49.99,
+          "annual": null,
+          "units_per_month": 10000.0,
+          "verified": true
+        },
+        {
+          "name": "Firefly Premium",
+          "monthly": 199.99,
+          "annual": null,
+          "units_per_month": 50000.0,
+          "verified": true
+        },
+        {
+          "name": "Creative Cloud Pro",
+          "monthly": null,
+          "annual": 69.99,
+          "units_per_month": 4000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "category": "Image",
+      "color": "#06b6d4",
+      "connector": "canva",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI uses",
+      "unit_note": null,
+      "pricing_url": "https://www.canva.com/pricing/",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 18.0,
+          "annual": 12.0,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Business",
+          "monthly": 25.0,
+          "annual": 20.83,
+          "units_per_month": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "playground",
+      "name": "Playground",
+      "category": "Image",
+      "color": "#84cc16",
+      "connector": "playground",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "1 credit per standard image",
+      "pricing_url": "https://playgroundai.com/design/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 15.0,
+          "annual": 12.0,
+          "units_per_month": 150.0,
+          "verified": true
+        },
+        {
+          "name": "Pro Plus",
+          "monthly": 45.0,
+          "annual": 36.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "photoroom",
+      "name": "Photoroom",
+      "category": "Image",
+      "color": "#8b5cf6",
+      "connector": "photoroom",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": null,
+      "pricing_url": "https://www.photoroom.com/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 12.99,
+          "annual": 7.5,
+          "units_per_month": 8000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 34.99,
+          "annual": 20.99,
+          "units_per_month": 25000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 99.0,
+          "annual": 82.5,
+          "units_per_month": 75000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "topaz",
+      "name": "Topaz Labs",
+      "category": "Image",
+      "color": "#94a3b8",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "video cloud credits",
+      "unit_note": "Monthly credits expire and do not roll over · a 4K upscale is ≈ 10 credits per 10 seconds",
+      "pricing_url": "https://www.topazlabs.com/pricing",
+      "plans": [
+        {
+          "name": "Studio",
+          "monthly": null,
+          "annual": 33.25,
+          "units_per_month": 300.0,
+          "verified": true
+        },
+        {
+          "name": "Studio Pro",
+          "monthly": null,
+          "annual": 66.58,
+          "units_per_month": 600.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "artlist",
+      "name": "Artlist",
+      "category": "Image",
+      "color": "#f5c518",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 10 credits per image, ≈ 160 per video · Core and Creator include unlimited select models",
+      "pricing_url": "https://artlist.io/page/pricing/max",
+      "plans": [
+        {
+          "name": "AI Starter",
+          "monthly": 19.99,
+          "annual": 11.99,
+          "units_per_month": 16500.0,
+          "verified": true
+        },
+        {
+          "name": "AI Core",
+          "monthly": 39.99,
+          "annual": 23.99,
+          "units_per_month": 40000.0,
+          "verified": true
+        },
+        {
+          "name": "AI Creator",
+          "monthly": 69.99,
+          "annual": 41.67,
+          "units_per_month": 80000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "lovart",
+      "name": "Lovart",
+      "category": "Image",
+      "color": "#111827",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Plus 100 daily credits · no rollover · Seedance 2.0 $0.02–0.04/sec",
+      "pricing_url": "https://www.lovart.ai/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 19.0,
+          "annual": 16.0,
+          "units_per_month": 2000.0,
+          "verified": true
+        },
+        {
+          "name": "Basic",
+          "monthly": 32.0,
+          "annual": 27.0,
+          "units_per_month": 3500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 90.0,
+          "annual": 74.0,
+          "units_per_month": 11000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultimate",
+          "monthly": 199.0,
+          "annual": 166.0,
+          "units_per_month": 27000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "scenario",
+      "name": "Scenario",
+      "category": "Image",
+      "color": "#ec4899",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Also 3D and video · no rollover",
+      "pricing_url": "https://www.scenario.com/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 15.0,
+          "annual": 10.05,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 45.0,
+          "annual": 30.15,
+          "units_per_month": 5000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 75.0,
+          "annual": 50.25,
+          "units_per_month": 10000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "envato",
+      "name": "Envato",
+      "category": "Image",
+      "color": "#82b541",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": "Stock library plus AI video, image, voice and music",
+      "pricing_url": "https://elements.envato.com/pricing",
+      "plans": [
+        {
+          "name": "Core",
+          "monthly": 39.0,
+          "annual": 16.5,
+          "units_per_month": 20.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 59.0,
+          "annual": 39.0,
+          "units_per_month": 200.0,
+          "verified": true
+        },
+        {
+          "name": "Ultimate",
+          "monthly": 259.0,
+          "annual": 168.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "dzine",
+      "name": "Dzine",
+      "category": "Image",
+      "color": "#f97316",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Creator and up roll credits over for 3 months · Beginner ≈ 41 Seedance videos",
+      "pricing_url": "https://www.dzine.ai/pricing",
+      "plans": [
+        {
+          "name": "Beginner",
+          "monthly": 8.99,
+          "annual": 7.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 24.99,
+          "annual": 20.0,
+          "units_per_month": 6000.0,
+          "verified": true
+        },
+        {
+          "name": "Master",
+          "monthly": 59.99,
+          "annual": 50.0,
+          "units_per_month": 9000.0,
+          "verified": true
+        },
+        {
+          "name": "Master Pro",
+          "monthly": 149.99,
+          "annual": 120.0,
+          "units_per_month": 30000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "getimg",
+      "name": "getimg.ai",
+      "category": "Image",
+      "color": "#0ea5e9",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "No rollover · API credits are separate",
+      "pricing_url": "https://getimg.ai/pricing",
+      "plans": [
+        {
+          "name": "Entry",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 3000.0,
+          "verified": true
+        },
+        {
+          "name": "Core",
+          "monthly": 30.0,
+          "annual": 25.0,
+          "units_per_month": 15000.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 65.0,
+          "annual": 55.0,
+          "units_per_month": 35000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mage_space",
+      "name": "Mage.space",
+      "category": "Image",
+      "color": "#a855f7",
+      "connector": "mage_space",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "gems",
+      "unit_note": "Unlimited on select models; gems pay for premium ones · gems expire after 30 days",
+      "pricing_url": "https://www.mage.space/membership",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 10.0,
+          "annual": null,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 30.0,
+          "annual": null,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro Plus",
+          "monthly": 60.0,
+          "annual": null,
+          "units_per_month": 3500.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 200.0,
+          "annual": null,
+          "units_per_month": 15000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs (ElevenCreative)",
+      "category": "Audio",
+      "color": "#ff4f4f",
+      "connector": "elevenlabs",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "One credit pool for speech, music, image and video · 1 credit = 1 character of text-to-speech · unused credits roll over (up to 2× the monthly amount)",
+      "pricing_url": "https://elevenlabs.io/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 6.0,
+          "annual": 5.0,
+          "units_per_month": 30000.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 22.0,
+          "annual": 18.33,
+          "units_per_month": 121000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 99.0,
+          "annual": 82.5,
+          "units_per_month": 600000.0,
+          "verified": true
+        },
+        {
+          "name": "Scale",
+          "monthly": 299.0,
+          "annual": 249.17,
+          "units_per_month": 1800000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "name": "Suno",
+      "category": "Audio",
+      "color": "#facc15",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "10 credits per generation (2 songs) · v6 models · downloads capped at 20 (Pro) and 60 (Premier) a month · plan credits do not roll over",
+      "pricing_url": "https://suno.com/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 2500.0,
+          "verified": true
+        },
+        {
+          "name": "Premier",
+          "monthly": 30.0,
+          "annual": 24.0,
+          "units_per_month": 10000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "udio",
+      "name": "Udio",
+      "category": "Audio",
+      "color": "#f97316",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "2 credits per generation (2 tracks) · after its UMG settlement Udio is a licensed \"walled garden\" and downloads are restricted (reports differ on how far)",
+      "pricing_url": "https://www.udio.com/pricing",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 10.0,
+          "annual": 8.0,
+          "units_per_month": 2400.0,
+          "verified": false
+        },
+        {
+          "name": "Pro",
+          "monthly": 30.0,
+          "annual": 24.0,
+          "units_per_month": 6000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "stable_audio",
+      "name": "Stable Audio",
+      "category": "Audio",
+      "color": "#a855f7",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "What a generation costs depends on the number of tracks and the process used (no single price) · subscription credits do not roll over · purchased packs never expire",
+      "pricing_url": "https://stableaudio.com/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 12.0,
+          "annual": null,
+          "units_per_month": 660.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 30.0,
+          "annual": null,
+          "units_per_month": 1800.0,
+          "verified": true
+        },
+        {
+          "name": "Studio",
+          "monthly": 90.0,
+          "annual": null,
+          "units_per_month": 6000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 199.0,
+          "annual": null,
+          "units_per_month": 14000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "mubert",
+      "name": "Mubert",
+      "category": "Audio",
+      "color": "#10b981",
+      "connector": "mubert",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "tracks",
+      "unit_note": null,
+      "pricing_url": "https://mubert.com/render/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 14.0,
+          "annual": null,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 39.0,
+          "annual": null,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Business",
+          "monthly": 199.0,
+          "annual": null,
+          "units_per_month": 1000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "flow_music",
+      "name": "Flow Music (Producer.ai)",
+      "category": "Audio",
+      "color": "#4285f4",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "About 5 credits per song (implied by the plan table) · Producer.ai's address now redirects to flowmusic.app, a Google product",
+      "pricing_url": "https://www.flowmusic.app/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 6.0,
+          "annual": null,
+          "units_per_month": 3000.0,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 18.0,
+          "annual": null,
+          "units_per_month": 10000.0,
+          "verified": true
+        },
+        {
+          "name": "Member",
+          "monthly": 48.0,
+          "annual": null,
+          "units_per_month": 30000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "fish_audio",
+      "name": "Fish Audio",
+      "category": "Audio",
+      "color": "#38bdf8",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Voice generation and cloning · the page's own figures disagree on credits per minute (FAQ about 600, plan table 1,150 to 4,000) · the plan page also sells an API separately",
+      "pricing_url": "https://fish.audio/plan/",
+      "plans": [
+        {
+          "name": "Plus",
+          "monthly": 15.0,
+          "annual": 11.0,
+          "units_per_month": 250000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 100.0,
+          "annual": 75.0,
+          "units_per_month": 2000000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 999.0,
+          "annual": 749.0,
+          "units_per_month": 25000000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "cartesia",
+      "name": "Cartesia",
+      "category": "Audio",
+      "color": "#a3e635",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "1 credit = 1 character of text-to-speech · built for developers and voice agents; an official sign-in server exists (mcp.cartesia.ai) but no balance tool has been checked",
+      "pricing_url": "https://cartesia.ai/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 5.0,
+          "annual": null,
+          "units_per_month": 100000.0,
+          "verified": true
+        },
+        {
+          "name": "Startup",
+          "monthly": 49.0,
+          "annual": null,
+          "units_per_month": 1250000.0,
+          "verified": true
+        },
+        {
+          "name": "Scale",
+          "monthly": 299.0,
+          "annual": null,
+          "units_per_month": 8000000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "soundraw",
+      "name": "Soundraw",
+      "category": "Audio",
+      "color": "#f43f5e",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "downloads",
+      "unit_note": "Royalty-free background music · Creator and Artist Unlimited have unlimited downloads (shown as no allowance) · the page does not say which price is monthly, so the second is taken as the annual rate",
+      "pricing_url": "https://soundraw.io/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 16.99,
+          "annual": 11.04,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "Artist Starter",
+          "monthly": 29.99,
+          "annual": 19.49,
+          "units_per_month": 10.0,
+          "verified": false
+        },
+        {
+          "name": "Artist Pro",
+          "monthly": 35.99,
+          "annual": 23.39,
+          "units_per_month": 20.0,
+          "verified": false
+        },
+        {
+          "name": "Artist Unlimited",
+          "monthly": 50.0,
+          "annual": 32.5,
+          "units_per_month": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "category": "Editing",
+      "color": "#3b82f6",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": "Plus media hours: Hobbyist 10h, Creator 30h, Business 40h",
+      "pricing_url": "https://www.descript.com/pricing",
+      "plans": [
+        {
+          "name": "Hobbyist",
+          "monthly": 24.0,
+          "annual": 16.0,
+          "units_per_month": 400.0,
+          "verified": true
+        },
+        {
+          "name": "Creator",
+          "monthly": 35.0,
+          "annual": 24.0,
+          "units_per_month": 800.0,
+          "verified": true
+        },
+        {
+          "name": "Business",
+          "monthly": 65.0,
+          "annual": 50.0,
+          "units_per_month": 1500.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "capcut",
+      "name": "CapCut",
+      "category": "Editing",
+      "color": "#e5e7eb",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": null,
+      "pricing_url": "https://www.capcut.com/pricing",
+      "plans": [
+        {
+          "name": "Standard",
+          "monthly": 9.99,
+          "annual": null,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "Pro",
+          "monthly": 19.99,
+          "annual": 15.0,
+          "units_per_month": null,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "opus_clip",
+      "name": "Opus Clip",
+      "category": "Editing",
+      "color": "#6366f1",
+      "connector": "opus_clip",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ 1 credit per minute of source video",
+      "pricing_url": "https://www.opus.pro/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 15.0,
+          "annual": null,
+          "units_per_month": 150.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 29.0,
+          "annual": 14.5,
+          "units_per_month": 300.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "riverside",
+      "name": "Riverside",
+      "category": "Editing",
+      "color": "#f43f5e",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "recording hours",
+      "unit_note": null,
+      "pricing_url": "https://riverside.com/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 29.0,
+          "annual": 24.0,
+          "units_per_month": 5.0,
+          "verified": true
+        },
+        {
+          "name": "Grow",
+          "monthly": 39.0,
+          "annual": 34.0,
+          "units_per_month": 15.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "veed",
+      "name": "VEED",
+      "category": "Editing",
+      "color": "#b6f36a",
+      "connector": "veed",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": "≈ 4 credits per AI video · no rollover · annual plans grant credits per year (shown ÷ 12)",
+      "pricing_url": "https://www.veed.io/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 25.0,
+          "annual": 12.25,
+          "units_per_month": 500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 45.0,
+          "annual": 22.08,
+          "units_per_month": 2500.0,
+          "verified": true
+        },
+        {
+          "name": "Studio",
+          "monthly": 79.0,
+          "annual": 38.75,
+          "units_per_month": 15000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy",
+      "category": "3D",
+      "color": "#c3f73a",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Image-to-3D 25 (Meshy 7) · text-to-3D 20 · texture 10 · rig/animate free in the web app",
+      "pricing_url": "https://www.meshy.ai/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 20.0,
+          "annual": 16.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Premium",
+          "monthly": 40.0,
+          "annual": 32.0,
+          "units_per_month": 3000.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 100.0,
+          "annual": 80.0,
+          "units_per_month": 8000.0,
+          "verified": true
+        },
+        {
+          "name": "Studio",
+          "monthly": 70.0,
+          "annual": null,
+          "units_per_month": 5500.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "category": "3D",
+      "color": "#7c3aed",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "HD model 15 · Smart Mesh 35 · auto-rig 20 · API credits are a separate wallet",
+      "pricing_url": "https://www.tripo3d.ai/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 20.0,
+          "annual": 20.0,
+          "units_per_month": 3000.0,
+          "verified": false
+        },
+        {
+          "name": "Max",
+          "monthly": 90.0,
+          "annual": 90.0,
+          "units_per_month": 25000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "3d_ai_studio",
+      "name": "3D AI Studio",
+      "category": "3D",
+      "color": "#2563eb",
+      "connector": "3d_ai_studio",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Image/text-to-3D 20 · rig 20 · animation 15 · texture and remesh free",
+      "pricing_url": "https://www.3daistudio.com/Pricing",
+      "plans": [
+        {
+          "name": "Basic",
+          "monthly": 19.0,
+          "annual": 12.0,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "Studio",
+          "monthly": 39.0,
+          "annual": 23.0,
+          "units_per_month": 3500.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 149.0,
+          "annual": 139.0,
+          "units_per_month": 18000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "alpha3d",
+      "name": "Alpha3D",
+      "category": "3D",
+      "color": "#f59e0b",
+      "connector": "alpha3d",
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "3D credits",
+      "unit_note": "≈ 30 per standard model, up to 61 with texturing",
+      "pricing_url": "https://www.alpha3d.io/pricing",
+      "plans": [
+        {
+          "name": "Tester",
+          "monthly": 5.0,
+          "annual": 4.0,
+          "units_per_month": 90.0,
+          "verified": false
+        },
+        {
+          "name": "Basic",
+          "monthly": 17.0,
+          "annual": 13.6,
+          "units_per_month": 1000.0,
+          "verified": false
+        },
+        {
+          "name": "Creator",
+          "monthly": 54.0,
+          "annual": 43.2,
+          "units_per_month": 3200.0,
+          "verified": false
+        },
+        {
+          "name": "Creator Pro",
+          "monthly": 162.0,
+          "annual": 129.6,
+          "units_per_month": 10000.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "hyper3d",
+      "name": "Hyper3D Rodin",
+      "category": "3D",
+      "color": "#0f766e",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "0.5 per Gen-2.5 model · extra credits $1.50 each",
+      "pricing_url": "https://hyper3d.ai/pricing",
+      "plans": [
+        {
+          "name": "Creator",
+          "monthly": 30.0,
+          "annual": 24.0,
+          "units_per_month": 30.0,
+          "verified": false
+        },
+        {
+          "name": "Business",
+          "monthly": 120.0,
+          "annual": 96.0,
+          "units_per_month": 208.0,
+          "verified": false
+        }
+      ]
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "category": "3D",
+      "color": "#e879f9",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "AI credits",
+      "unit_note": "Per seat · shared by AI generation, textures and the AI agent",
+      "pricing_url": "https://spline.design/pricing",
+      "plans": [
+        {
+          "name": "Hobby",
+          "monthly": 15.0,
+          "annual": 12.0,
+          "units_per_month": 2000.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 30.0,
+          "annual": 25.0,
+          "units_per_month": 3000.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 70.0,
+          "annual": 60.0,
+          "units_per_month": 10000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "sloyd",
+      "name": "Sloyd",
+      "category": "3D",
+      "color": "#22c55e",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Basic generations unlimited · multi-image 20 · scene or animation 30",
+      "pricing_url": "https://www.sloyd.ai/pricing",
+      "plans": [
+        {
+          "name": "Plus",
+          "monthly": 15.0,
+          "annual": 12.5,
+          "units_per_month": 50.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 50.0,
+          "annual": 41.67,
+          "units_per_month": 350.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "masterpiece_x",
+      "name": "Masterpiece X",
+      "category": "3D",
+      "color": "#fb7185",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": null,
+      "pricing_url": "https://www.masterpiecex.com/pricing",
+      "plans": [
+        {
+          "name": "750",
+          "monthly": 10.99,
+          "annual": null,
+          "units_per_month": 750.0,
+          "verified": true
+        },
+        {
+          "name": "1500",
+          "monthly": 19.99,
+          "annual": null,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "3000",
+          "monthly": 36.99,
+          "annual": null,
+          "units_per_month": 3000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "atlas_cloud",
+      "name": "Atlas Cloud",
+      "category": "Model hubs",
+      "color": "#6366f1",
+      "connector": "atlas_cloud",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "Seedance 2.0 ≈ $0.09/sec · Kling V3 Turbo ≈ $0.095/sec",
+      "pricing_url": "https://www.atlascloud.ai/docs/en/billing",
+      "plans": []
+    },
+    {
+      "id": "fal",
+      "name": "fal.ai",
+      "category": "Model hubs",
+      "color": "#a855f7",
+      "connector": "fal",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "Kling 2.5 Turbo Pro $0.07/sec · Nano Banana ≈ $0.04/image",
+      "pricing_url": "https://fal.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "wavespeed",
+      "name": "WaveSpeed AI",
+      "category": "Model hubs",
+      "color": "#0ea5e9",
+      "connector": "wavespeed",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "Seedance 2.0 Fast $0.10/sec · Nano Banana Pro $0.14/image",
+      "pricing_url": "https://wavespeed.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "runware",
+      "name": "Runware",
+      "category": "Model hubs",
+      "color": "#6366f1",
+      "connector": "runware",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "Pay per generation; prices vary by model (see the pricing page)",
+      "pricing_url": "https://runware.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "luma_api",
+      "name": "Luma API",
+      "category": "Model hubs",
+      "color": "#a78bfa",
+      "connector": null,
+      "prepaid": true,
+      "parent": "luma",
+      "wallet_label": "API wallet",
+      "unit": "USD",
+      "unit_note": "Add funds first at platform.lumalabs.ai; balance shows there only · Uni-1 image $0.04",
+      "pricing_url": "https://docs.agents.lumalabs.ai/guides/pricing/",
+      "plans": []
+    },
+    {
+      "id": "ideogram_api",
+      "name": "Ideogram API",
+      "category": "Model hubs",
+      "color": "#d946ef",
+      "connector": "ideogram_api",
+      "prepaid": false,
+      "parent": "ideogram",
+      "wallet_label": "API wallet",
+      "unit": "USD of usage",
+      "unit_note": "Billed on usage with invoices; no balance to read. Your spend is at ideogram.ai under the API platform",
+      "pricing_url": "https://ideogram.ai/features/api-pricing",
+      "plans": []
+    },
+    {
+      "id": "runway_api",
+      "name": "Runway API",
+      "category": "Model hubs",
+      "color": "#d4d4d8",
+      "connector": "runway_api",
+      "prepaid": true,
+      "parent": "runway",
+      "wallet_label": "API wallet",
+      "unit": "USD",
+      "unit_note": "API credits, 1 credit = $0.01 · Gen-4 Turbo 5 credits/sec · Gen-4.5 12 credits/sec",
+      "pricing_url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "plans": []
+    },
+    {
+      "id": "recraft_api",
+      "name": "Recraft API",
+      "category": "Model hubs",
+      "color": "#22d3ee",
+      "connector": "recraft_api",
+      "prepaid": true,
+      "parent": "recraft",
+      "wallet_label": "API wallet",
+      "unit": "USD",
+      "unit_note": "API units, $1 = 1,000 · V4.1 image 35 units ($0.035) · buy units before creating a key",
+      "pricing_url": "https://www.recraft.ai/docs/api-reference/pricing",
+      "plans": []
+    },
+    {
+      "id": "kie",
+      "name": "kie.ai",
+      "category": "Model hubs",
+      "color": "#111827",
+      "connector": "kie",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "≈ $0.005 per credit · one wallet for Veo, Seedance, Suno and more",
+      "pricing_url": "https://kie.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "category": "Model hubs",
+      "color": "#64748b",
+      "connector": "openrouter",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "Model prices passed through; 5.5% fee on card top-ups",
+      "pricing_url": "https://openrouter.ai/docs/faq",
+      "plans": []
+    },
+    {
+      "id": "replicate",
+      "name": "Replicate",
+      "category": "Model hubs",
+      "color": "#f43f5e",
+      "connector": null,
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "flux-1.1-pro $0.04/image · Wan 2.1 720p $0.25/sec",
+      "pricing_url": "https://replicate.com/pricing",
+      "plans": []
+    },
+    {
+      "id": "flora",
+      "name": "Flora",
+      "category": "Model hubs",
+      "color": "#22c55e",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD of usage",
+      "unit_note": "Each plan includes its price in model usage, billed at model list rates",
+      "pricing_url": "https://docs.flora.ai/plans-and-billing/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 18.0,
+          "annual": 14.4,
+          "units_per_month": 18.0,
+          "verified": true
+        },
+        {
+          "name": "Pro",
+          "monthly": 50.0,
+          "annual": 40.0,
+          "units_per_month": 50.0,
+          "verified": true
+        },
+        {
+          "name": "Max",
+          "monthly": 200.0,
+          "annual": 160.0,
+          "units_per_month": 200.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "figma_weave",
+      "name": "Figma Weave",
+      "category": "Model hubs",
+      "color": "#f97316",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "credits",
+      "unit_note": "Formerly Weavy · top-ups $10 per 1,000–1,200 credits",
+      "pricing_url": "https://weave.figma.com/pricing",
+      "plans": [
+        {
+          "name": "Starter",
+          "monthly": 24.0,
+          "annual": null,
+          "units_per_month": 1500.0,
+          "verified": true
+        },
+        {
+          "name": "Professional",
+          "monthly": 45.0,
+          "annual": null,
+          "units_per_month": 4000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "bfl",
+      "name": "Black Forest Labs (FLUX)",
+      "category": "Model hubs",
+      "color": "#111111",
+      "connector": "bfl",
+      "prepaid": true,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "USD",
+      "unit_note": "No subscriptions, pay per generation · video $0.17/sec",
+      "pricing_url": "https://bfl.ai/pricing",
+      "plans": []
+    },
+    {
+      "id": "civitai",
+      "name": "Civitai",
+      "category": "Model hubs",
+      "color": "#1971c2",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "Buzz",
+      "unit_note": "Membership Buzz for generation and training",
+      "pricing_url": "https://civitai.com/pricing",
+      "plans": [
+        {
+          "name": "Bronze",
+          "monthly": 10.0,
+          "annual": null,
+          "units_per_month": 10000.0,
+          "verified": true
+        },
+        {
+          "name": "Silver",
+          "monthly": 25.0,
+          "annual": null,
+          "units_per_month": 25000.0,
+          "verified": true
+        },
+        {
+          "name": "Gold",
+          "monthly": 50.0,
+          "annual": null,
+          "units_per_month": 50000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "Assistants",
+      "color": "#10a37f",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "messages",
+      "unit_note": null,
+      "pricing_url": "https://chatgpt.com/pricing",
+      "plans": [
+        {
+          "name": "Go",
+          "monthly": 8.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Plus",
+          "monthly": 20.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Pro 5x",
+          "monthly": 100.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Pro 20x",
+          "monthly": 200.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "category": "Assistants",
+      "color": "#d97757",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "usage",
+      "unit_note": null,
+      "pricing_url": "https://claude.com/pricing",
+      "plans": [
+        {
+          "name": "Pro",
+          "monthly": 20.0,
+          "annual": 17.0,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Max 5x",
+          "monthly": 100.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        },
+        {
+          "name": "Max 20x",
+          "monthly": 200.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "google_ai",
+      "name": "Google AI (Gemini, Flow)",
+      "category": "Assistants",
+      "color": "#4285f4",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "Flow credits",
+      "unit_note": "Per clip: Veo 3.1 Fast 20 credits (10 on Ultra) · Quality 100 · Gemini Omni Flash 15–30 by length (4–10 s)",
+      "pricing_url": "https://gemini.google/subscriptions/",
+      "plans": [
+        {
+          "name": "AI Plus",
+          "monthly": 4.99,
+          "annual": null,
+          "units_per_month": 200.0,
+          "verified": true
+        },
+        {
+          "name": "AI Pro",
+          "monthly": 19.99,
+          "annual": 16.67,
+          "units_per_month": 1000.0,
+          "verified": true
+        },
+        {
+          "name": "AI Ultra 5x",
+          "monthly": 99.99,
+          "annual": null,
+          "units_per_month": 10000.0,
+          "verified": true
+        },
+        {
+          "name": "AI Ultra 20x",
+          "monthly": 199.99,
+          "annual": null,
+          "units_per_month": 25000.0,
+          "verified": true
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "name": "Grok (SuperGrok)",
+      "category": "Assistants",
+      "color": "#9ca3af",
+      "connector": null,
+      "prepaid": false,
+      "parent": null,
+      "wallet_label": null,
+      "unit": "usage",
+      "unit_note": "One weekly usage pool across chat, Imagine (image and video) and voice · prices not shown logged out · X Premium bundles a smaller Grok allowance",
+      "pricing_url": "https://grok.com/plans",
+      "plans": [
+        {
+          "name": "X Premium (Grok inside X)",
+          "monthly": 8.0,
+          "annual": 7.0,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "X Premium+ (Grok inside X)",
+          "monthly": 40.0,
+          "annual": 32.92,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "SuperGrok Lite",
+          "monthly": 10.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "SuperGrok",
+          "monthly": 30.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "SuperGrok Plus",
+          "monthly": 100.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "SuperGrok Heavy",
+          "monthly": 300.0,
+          "annual": null,
+          "units_per_month": null,
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "jobs": [
+    {
+      "id": "runway",
+      "app_url": "https://app.runwayml.com",
+      "rollover": {
+        "kind": "plans",
+        "plans": [
+          "Max",
+          "Team"
+        ]
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Gen-4 Turbo",
+          "cost": 25.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 Pro",
+          "cost": 60.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "lipsync",
+          "model": "Act-Two",
+          "cost": 300.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Gen-4 Image",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 20.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Magnific Precision",
+          "cost": 25.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_video",
+          "model": "Magnific upscaler · 4K",
+          "cost": 180.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "max_px": 3840
+          }
+        },
+        {
+          "job": "sfx",
+          "model": "ElevenLabs text to sound v2",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "kling",
+      "app_url": "https://app.klingai.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 30.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 40.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Kling Image",
+          "cost": 1.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "openart",
+      "app_url": "https://openart.ai/create",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Seedance 2.0",
+          "cost": 400.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 20.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 40.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "magnific",
+      "app_url": "https://www.magnific.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 2.5 · 720p",
+          "cost": 140.0,
+          "verified": true,
+          "unlimited_on": [
+            "Premium+",
+            "Pro Starter"
+          ],
+          "relaxed": true
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 Pro · 1080p",
+          "cost": 450.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 75.0,
+          "verified": true,
+          "unlimited_on": [
+            "Premium+",
+            "Pro Starter"
+          ],
+          "relaxed": true
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 75.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Magnific Precision 2K",
+          "cost": 90.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "recraft",
+      "app_url": "https://www.recraft.ai/projects",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Recraft V4.1",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Recraft V4.1 Pro",
+          "cost": 10.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Crisp upscale",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "edit_image",
+          "model": "Image editing · V4.1",
+          "cost": 2.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "remove_bg",
+          "model": "Remove background",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "vector",
+          "model": "Recraft V4.1 Vector",
+          "cost": 4.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "svg"
+            ],
+            "note": "True SVG, not a traced raster; vector generation and the Vector Editor are on every plan, including Free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "luma",
+      "app_url": "https://dream-machine.lumalabs.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Ray3.2 · 720p",
+          "cost": 100.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 200.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Uni-1",
+          "cost": 30.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 23.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "SeedVR2",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "image"
+            ],
+            "max_px": 1024,
+            "note": "Priced at the 1K tier; 2K, 4K and 8K are 3, 10 and 25 credits"
+          }
+        },
+        {
+          "job": "upscale_video",
+          "model": "Topaz upscale · 4K",
+          "cost": 85.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "max_px": 3840
+          }
+        }
+      ]
+    },
+    {
+      "id": "pika",
+      "app_url": "https://pika.art",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Wan 3.0 · 720p",
+          "cost": 33.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 8.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "app_url": "https://www.midjourney.com/imagine",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Midjourney video · 720p",
+          "cost": 0.11666666666666667,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Midjourney (grid of 4)",
+          "cost": 0.013333333333333334,
+          "verified": true,
+          "unlimited_on": [
+            "Standard",
+            "Pro",
+            "Mega"
+          ],
+          "relaxed": true
+        },
+        {
+          "job": "image_hq",
+          "model": "Midjourney HD",
+          "cost": 0.021666666666666667,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Creative upscale",
+          "cost": 0.03333333333333333,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "adobe_firefly",
+      "app_url": "https://firefly.adobe.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 100.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Veo 3.1 · 1080p",
+          "cost": 250.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Firefly Image 4",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [
+            "*"
+          ],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 40.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Firefly upscale",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [
+            "*"
+          ],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "krea",
+      "app_url": "https://www.krea.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0",
+          "cost": 192.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Veo 3.1",
+          "cost": 606.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Krea 1",
+          "cost": 5.6,
+          "verified": false,
+          "unlimited_on": [
+            "Max"
+          ],
+          "relaxed": true
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 78.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Enhancer",
+          "cost": 8.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "leonardo",
+      "app_url": "https://app.leonardo.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Lucid Origin",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [
+            "Premium",
+            "Ultimate"
+          ],
+          "relaxed": true
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana",
+          "cost": 40.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "ideogram",
+      "app_url": "https://ideogram.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Ideogram 4.0",
+          "cost": 4.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Ideogram 4.0 Quality",
+          "cost": 6.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Upscale 2×",
+          "cost": 1.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "app_url": "https://elevenlabs.io/app",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "voice",
+          "model": "Multilingual v2",
+          "cost": 1000.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "sfx",
+          "model": "Text to sound effects",
+          "cost": 200.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "max_seconds": 30.0,
+            "note": "40 credits a second when a duration is set (0.1-30 s); the pricing FAQ quotes about 200 credits a generation"
+          }
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "app_url": "https://suno.com/create",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "song",
+          "model": "Suno v6",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "meshy",
+      "app_url": "https://www.meshy.ai/workspace",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "model3d",
+          "model": "Meshy 7 · image to 3D",
+          "cost": 25.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "glb",
+              "fbx",
+              "obj",
+              "usdz",
+              "stl",
+              "3mf"
+            ],
+            "inputs": [
+              "image"
+            ],
+            "note": "GLB and USDZ embed textures; FBX and OBJ arrive as a zip with a textures folder; STL is geometry only"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tripo",
+      "app_url": "https://studio.tripo3d.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "model3d",
+          "model": "Tripo HD model",
+          "cost": 15.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "glb",
+              "fbx",
+              "obj",
+              "usd"
+            ],
+            "note": "STL and 3MF are offered for 3D printing"
+          }
+        }
+      ]
+    },
+    {
+      "id": "3d_ai_studio",
+      "app_url": "https://www.3daistudio.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "model3d",
+          "model": "Image to 3D",
+          "cost": 20.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "alpha3d",
+      "app_url": "https://www.alpha3d.io",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "model3d",
+          "model": "Standard 3D model",
+          "cost": 30.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "hyper3d",
+      "app_url": "https://hyper3d.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "model3d",
+          "model": "Rodin Gen-2.5",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "atlas_cloud",
+      "app_url": "https://www.atlascloud.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Seedance 2.0",
+          "cost": 0.45,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2 Lite",
+          "cost": 0.04,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "fal",
+      "app_url": "https://fal.ai/models",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 2.5 Turbo Pro",
+          "cost": 0.35,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Veo 3",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_video",
+          "model": "Topaz upscale",
+          "cost": 0.4,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "note": "$0.01/sec to 720p, $0.02/sec to 1080p, $0.08/sec above; price doubles for 60 fps output"
+          }
+        }
+      ]
+    },
+    {
+      "id": "wavespeed",
+      "app_url": "https://wavespeed.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Seedance 2.0 Fast",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Seedream 4.5",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 0.14,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "luma_api",
+      "app_url": "https://platform.lumalabs.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Uni-1 (API)",
+          "cost": 0.0404,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "recraft_api",
+      "app_url": "https://app.recraft.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Recraft V4.1 (API)",
+          "cost": 0.035,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Recraft V4.1 Pro (API)",
+          "cost": 0.21,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Crisp upscale (API)",
+          "cost": 0.004,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "edit_image",
+          "model": "Inpaint · V3 (API)",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "remove_bg",
+          "model": "Remove background (API)",
+          "cost": 0.01,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "vector",
+          "model": "Recraft V4.1 Vector (API)",
+          "cost": 0.08,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "svg"
+            ],
+            "note": "True SVG, not a traced raster; vector generation and the Vector Editor are on every plan, including Free"
+          }
+        }
+      ]
+    },
+    {
+      "id": "runway_api",
+      "app_url": "https://dev.runwayml.com",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Gen-4 Turbo (API)",
+          "cost": 0.25,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 Pro (API)",
+          "cost": 0.6,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "lipsync",
+          "model": "Act-Two (API)",
+          "cost": 3.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Gen-4 Image (API)",
+          "cost": 0.05,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana 2.1 (API)",
+          "cost": 0.06,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Magnific Precision v2 (API)",
+          "cost": 0.25,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_video",
+          "model": "Magnific upscaler · 4K (API)",
+          "cost": 1.8,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "max_px": 3840
+          }
+        },
+        {
+          "job": "sfx",
+          "model": "ElevenLabs text to sound v2 (API)",
+          "cost": 0.05,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "replicate",
+      "app_url": "https://replicate.com/explore",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Wan 2.1 · 720p",
+          "cost": 1.25,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX 1.1 Pro",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "higgsfield",
+      "app_url": "https://higgsfield.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 8.75,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 2.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "pollo",
+      "app_url": "https://pollo.ai",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Pollo 2.5 · 720p",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana 2",
+          "cost": 2.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 9.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "veed",
+      "app_url": "https://www.veed.io",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "VEED Motion",
+          "cost": 40.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.2",
+          "cost": 5.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "FLUX.2 Pro",
+          "cost": 15.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "kie",
+      "app_url": "https://kie.ai/market",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 70.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 90.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Nano Banana",
+          "cost": 4.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 18.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Recraft Crisp upscale",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "ElevenLabs Turbo 2.5",
+          "cost": 6.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "Suno",
+          "cost": 12.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "runware",
+      "app_url": "https://runware.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Kling 3.0 · 720p",
+          "cost": 0.42,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Kling 3.0 · 1080p",
+          "cost": 0.56,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.1.1 Pro",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 0.138,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_image",
+          "model": "Real-ESRGAN",
+          "cost": 0.0013,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "MiniMax Speech 2.8 Turbo",
+          "cost": 0.06,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "MiniMax Music 2.6",
+          "cost": 0.15,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "model3d",
+          "model": "Hunyuan 3D 3.1 Rapid",
+          "cost": 0.225,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "upscale_video",
+          "model": "FLUX 3 Upscaler · 1080p",
+          "cost": 0.75,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "max_px": 1920
+          }
+        }
+      ]
+    },
+    {
+      "id": "bfl",
+      "app_url": "https://dashboard.bfl.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "FLUX 3 Video · hd",
+          "cost": 0.85,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "FLUX 3 Video · fhd",
+          "cost": 1.45,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "FLUX.1.1 [pro]",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "FLUX.1 Kontext [max]",
+          "cost": 0.08,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "playground",
+      "app_url": "https://playgroundai.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "GPT Image 2.5",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 4.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "mage_space",
+      "app_url": "https://www.mage.space",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Mango 3 · 2K",
+          "cost": 135.0,
+          "verified": true,
+          "unlimited_on": [
+            "Pro",
+            "Pro Plus",
+            "Max"
+          ],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "openrouter",
+      "app_url": "https://openrouter.ai/models",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "video",
+          "model": "Wan 3.0 · 720p",
+          "cost": 0.5,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "video_hq",
+          "model": "Wan 3.0 · 1080p",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image",
+          "model": "Seedream 4.5",
+          "cost": 0.04,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 0.1344,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "voice",
+          "model": "ElevenLabs Multilingual v2",
+          "cost": 0.04,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "song",
+          "model": "Lyria 3 Pro",
+          "cost": 0.08,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "topaz",
+      "app_url": "https://www.topazlabs.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "upscale_video",
+          "model": "Starlight Precise 2.5 · 4K",
+          "cost": 5.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "inputs": [
+              "video"
+            ],
+            "max_px": 3840
+          }
+        }
+      ]
+    },
+    {
+      "id": "heygen",
+      "app_url": "https://app.heygen.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "lipsync",
+          "model": "Avatar IV · Photo Look",
+          "cost": 16.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "max_px": 3840,
+            "watermark": "free_only",
+            "note": "1080p export on Creator; 4K on Pro and Business"
+          }
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "app_url": "https://app.synthesia.io",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "lipsync",
+          "model": "Avatar video",
+          "cost": 100.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "mp4"
+            ],
+            "max_px": 1920,
+            "watermark": "free_only",
+            "note": "The lip-sync modifier doubles the credits; the first 10 minutes a month are free on every plan"
+          }
+        }
+      ]
+    },
+    {
+      "id": "captions",
+      "app_url": "https://www.captions.ai",
+      "rollover": {
+        "kind": "all"
+      },
+      "offers": [
+        {
+          "job": "lipsync",
+          "model": "Mirage · Prompt to Video",
+          "cost": 160.0,
+          "verified": false,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "riverside",
+      "app_url": "https://riverside.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "clip",
+          "model": "Magic Clips",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "note": "Plan hours cap separate-track downloads, not clipping or transcription"
+          }
+        },
+        {
+          "job": "transcribe",
+          "model": "Riverside transcription",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "note": "Plan hours cap separate-track downloads, not clipping or transcription"
+          }
+        }
+      ]
+    },
+    {
+      "id": "photoroom",
+      "app_url": "https://www.photoroom.com",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "remove_bg",
+          "model": "Background Remover",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "note": "Included on every paid plan with no credit cost, subject to fair-use limits"
+          }
+        },
+        {
+          "job": "edit_image",
+          "model": "AI Fill",
+          "cost": 0.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "note": "Included on every paid plan with no credit cost, subject to fair-use limits"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dzine",
+      "app_url": "https://www.dzine.ai",
+      "rollover": {
+        "kind": "plans",
+        "plans": [
+          "Creator",
+          "Master",
+          "Master Pro"
+        ]
+      },
+      "offers": [
+        {
+          "job": "image",
+          "model": "Seedream 4.5",
+          "cost": 8.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        },
+        {
+          "job": "image_hq",
+          "model": "Nano Banana Pro",
+          "cost": 50.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false
+        }
+      ]
+    },
+    {
+      "id": "mubert",
+      "app_url": "https://mubert.com/render",
+      "rollover": {
+        "kind": "none"
+      },
+      "offers": [
+        {
+          "job": "song",
+          "model": "Mubert Render track",
+          "cost": 1.0,
+          "verified": true,
+          "unlimited_on": [],
+          "relaxed": false,
+          "caps": {
+            "formats": [
+              "wav",
+              "mp3"
+            ],
+            "max_seconds": 1500.0,
+            "note": "Creator is non-commercial; Pro and Business clear commercial use. No plan may publish to streaming platforms or Content ID"
+          }
+        }
+      ]
+    }
+  ]
+}
