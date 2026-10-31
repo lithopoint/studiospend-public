@@ -3,3 +3,8 @@
 /prices/*
   Cache-Control: public, max-age=3600
   Access-Control-Allow-Origin: *
+
+# This repository's README, docs and images are also reachable at
+# files.studiospend.com. Keep them out of search results.
+/*
+  X-Robots-Tag: noindex

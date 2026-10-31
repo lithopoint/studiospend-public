@@ -1,0 +1,13 @@
+# Issues here are a signpost, not a queue: support runs through the in-app
+# form so that every report arrives with the app version and macOS version.
+blank_issues_enabled: false
+contact_links:
+  - name: Report a bug, ask a question or suggest something
+    url: https://tally.so/r/zxPv11
+    about: The same form as Settings → Help & feedback in the app.
+  - name: Read the FAQ
+    url: https://github.com/lithopoint/studiospend-public/blob/main/docs/faq.md
+    about: Common questions and fixes.
+  - name: Report a security problem
+    url: https://github.com/lithopoint/studiospend-public/security/advisories/new
+    about: Private report. Please do not post security details publicly.
