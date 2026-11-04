@@ -1,7 +1,7 @@
 {
   "schema": 2,
-  "generated_at": "2026-10-21",
-  "revision": 2,
+  "generated_at": "2026-11-04",
+  "revision": 1,
   "platforms": [
     {
       "id": "runway",
@@ -54,9 +54,9 @@
       "plans": [
         {
           "name": "Starter",
-          "monthly": 19.0,
+          "monthly": 15.0,
           "annual": null,
-          "units_per_month": 270.0,
+          "units_per_month": 200.0,
           "verified": false
         },
         {
