@@ -12,7 +12,7 @@ The first 30 days are free, with no card and no account. After that it is $5 a m
 Your data stays and so do the Spend tab, adding and editing entries, and statement import. Live balance refresh, connecting new platforms, alerts and the Make tab pause until you add a license key. Nothing is deleted.
 
 **Does it work on Windows?**
-Not yet. StudioSpend is a Mac app for now.
+Yes. Windows 10 and 11, 64-bit: [download the installer](https://github.com/lithopoint/studiospend-public/releases/latest/download/StudioSpend-Windows-x64-setup.exe). It lives in the system tray, and one license covers two computers in any mix of Mac and Windows. The Claude connector is Mac only for now. See [install.md](install.md#windows).
 
 **Which Macs and macOS versions?**
 Intel and Apple silicon Macs, from one download. It is tested on macOS 26 (Tahoe). Older versions may work but have not been tested.
@@ -20,18 +20,18 @@ Intel and Apple silicon Macs, from one download. It is tested on macOS 26 (Tahoe
 ## Your accounts and your data
 
 **Is it safe to connect my accounts?**
-You sign in on each platform's own sign-in page, so StudioSpend never sees your password. What it receives is a permission the platform grants, and it keeps that in your Mac's Keychain. You can revoke it from the platform's own settings at any time. [Details](privacy.md).
+You sign in on each platform's own sign-in page, so StudioSpend never sees your password. What it receives is a permission the platform grants, and it keeps that in your Mac's Keychain or Windows Credential Manager. You can revoke it from the platform's own settings at any time. [Details](privacy.md).
 
 **Can StudioSpend change my plan, spend my credits or cancel anything?**
 No. It reads balances and nothing else. It cannot generate anything, buy anything or change a subscription.
 
 **Where is my data?**
-In a database on your Mac. There is no StudioSpend account and no cloud copy. Locations are listed in [uninstall.md](uninstall.md).
+In a database on your computer. There is no StudioSpend account and no cloud copy. Locations are listed in [uninstall.md](uninstall.md).
 
-**Why does macOS ask about my Keychain?**
+**Why does macOS ask about my Keychain?** (Mac)
 StudioSpend keeps your connected sign-ins in one Keychain item. macOS asks the first time the app reads it. Choose **Always Allow**.
 
-**Can I use it on a second Mac?**
+**Can I use it on a second computer?**
 Yes, with the same license. **Settings → Your data → Move to another Mac** carries your plans, payments and settings in one passphrase-locked file. Sign-ins do not travel, so you reconnect them on the new Mac.
 
 ## Platforms

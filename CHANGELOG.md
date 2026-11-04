@@ -2,6 +2,38 @@
 
 What changed in StudioSpend, in plain language, newest first. Each release's section is also its release notes on GitHub. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versions: `MAJOR.MINOR.PATCH`.
 
+## [1.0.0] - 2026-11-04
+
+The first full release, for Mac and Windows. Free for 30 days, then $5 a month or $45 a year.
+
+### Added
+- **See what you can still make at a glance.** Each job on Make shows how many you can make with what you have left, and picking one turns the big figure into that count, still with what you've paid for and not used yet alongside it.
+- **StudioSpend for Windows.** A signed installer for Windows 10 and 11 (64-bit), with the same app, the same license, and in-app updates.
+- **Connected plans add themselves.** When you connect a platform that reports its plan, and StudioSpend knows that plan's price, it goes straight onto Spend ("Added Runway Pro to Spend · $35/mo", with Undo). Anything it can't price, a platform that reports no plan, and developer API wallets still wait for you as cards, which now appear as soon as you connect instead of after every account refreshes, and lead Spend until your first plan is added.
+
+### Changed
+- Tags such as "Trial ends", "Smaller plan" and "Pay as you go" are one size larger, so they're easier to read.
+- **Pay less speaks in videos and images, not credits.** A plan that would fit you better now says how much you use and what the other plan covers in jobs ("You make about 15 videos a month; Standard covers about 22"), or in dollars when StudioSpend can't tell what the credits went on.
+- **Make shows every plan you entered, in two lists.** *Paid plans* keeps the dollars that add up to the total at the top ("8 plans counted"). Under it, *Also tracking* lists everything else (free plans, a plan with no balance yet, one StudioSpend can't price): the credits each one last reported, never dollars, and a link to the one step that would count it (*Change plan* for a plan entered as free, *Connect* or *Add balance* for one with no balance yet). It's open; fold it from its heading and Make remembers. Their credits still count when you pick a job. A plan with under a dollar left reads "< $1" instead of "≈ $0".
+
+### Fixed
+- Signing back in is needed less often. A platform that renews your sign-in can no longer lose the renewal to a slow answer or a failed save, and a Reconnect you don't finish no longer signs you out.
+- A platform that stops answering no longer holds up that platform's balance until you restart, and Connect no longer spins forever if the sign-in page never returns.
+- Warnings on Accounts now say what actually happened and offer only what can help, with the error details right there. Account details in a platform's reply are removed before they're shown.
+- Clicking the "Plan" caption in the plan form no longer sets the plan to Free at $0.
+- A very long error reply from a platform can no longer crash the app.
+- A mistyped license key no longer ends your free trial. It's turned down with the reason, and the trial carries on.
+- A license whose subscription has ended now offers Subscribe again, instead of only "Open License".
+- A Mac clock that was once set ahead no longer locks a paid license or ends the trial for good; it's corrected once the clock is right again.
+- If the app's data folder is deleted but your license key is still in the keychain, StudioSpend checks the key instead of showing the trial.
+- A slow or stuck update download no longer holds up balances, alerts and the daily license check.
+- When the Claude connector is paused, Claude now says why (trial over, a license that needs attention, or a build that stopped), instead of always "your trial has ended".
+- The Ideogram API row on Accounts says what you were billed once ("$11.60 billed this month · API account, not your plan"), instead of "Usage-billed", a "Billed usage" tag and "USD billed billed".
+- A free trial's credits no longer count as money that could reset unused. Alerts, the monthly recap and Claude's answers now say nothing is at risk while a plan is on trial, as the Make tab already did.
+- A trial in Spend's "Coming up" list is no longer cut off in a narrow window: the full name shows, with a "Trial ends" tag beside it.
+- Small tags such as "Trial ends", "Few left" and "Pay as you go" no longer disappear when you point at their row.
+- *What it really cost* no longer treats a plan on a free trial as paid for: it says nothing has been paid yet, instead of claiming each job really cost several times its price.
+
 ## [0.3.0] - 2026-10-29
 
 ### Added
