@@ -1,6 +1,6 @@
 # StudioSpend in Claude
 
-Ask Claude what you have left, what's about to expire, and where to make something, and get an answer from **your own numbers**. Available in StudioSpend **0.3.0 and later**, in Claude Desktop (Mac) and Claude Code.
+Mac only for now. Ask Claude what you have left, what's about to expire, and where to make something, and get an answer from **your own numbers**. Available in StudioSpend **0.3.0 and later**, in Claude Desktop (Mac) and Claude Code.
 
 ## Add it
 

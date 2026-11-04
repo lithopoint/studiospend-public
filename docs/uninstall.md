@@ -37,3 +37,10 @@ If you tried a beta before the public release, its data may sit in a second fold
 ## Your license
 
 Removing the app does not cancel a subscription. Manage billing from your receipt email, or contact [support](../SUPPORT.md).
+
+## On Windows
+
+1. Quit StudioSpend: open **Settings → Quit StudioSpend**. Closing the window alone leaves it running in the system tray.
+2. Remove it in **Settings → Apps → Installed apps → StudioSpend → Uninstall**.
+3. To remove your data too, delete the folder `%APPDATA%\com.lithopoint.studiospend`.
+4. To remove the sign-ins, open **Credential Manager → Windows Credentials** and remove the items for **com.lithopoint.studiospend** (names starting with `vault`).
