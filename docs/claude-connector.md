@@ -1,6 +1,6 @@
 # StudioSpend in Claude
 
-Mac only for now. Ask Claude what you have left, what's about to expire, and where to make something, and get an answer from **your own numbers**. Available in StudioSpend **0.3.0 and later**, in Claude Desktop (Mac) and Claude Code.
+Mac only for now. Ask Claude what you have left, what's about to expire, and which plan covers a job, and get an answer from **your own numbers**. Available in StudioSpend **0.3.0 and later**, in Claude Desktop (Mac) and Claude Code.
 
 ## Add it
 
@@ -20,7 +20,7 @@ Mac only for now. Ask Claude what you have left, what's about to expire, and whe
 
 **Where you see the designed card.** In a regular Claude Desktop chat, StudioSpend's answers appear as a card in the chat (what's left, where to make it, what's about to expire). Where Claude doesn't draw cards yet, it shows the same answer as text. In the terminal, Claude Code can only show text.
 
-Claude then generates through that platform's own Claude connector, if you've added it. StudioSpend only advises: **it can't generate, spend or change anything.**
+Claude then hands you to that platform, through its own Claude connector if you've added it. StudioSpend only advises: **it can't generate, spend or change anything.**
 
 ## Privacy
 
