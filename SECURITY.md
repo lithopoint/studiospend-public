@@ -15,7 +15,7 @@ Please do not open a public issue or post details until a fix is out.
 
 - Your plans, payments and balances are stored in a database on your computer.
 - Platform sign-ins use each platform's official sign-in page. The access granted to StudioSpend is kept in your Mac's Keychain or Windows Credential Manager, not in a file.
-- The app sends no analytics. It contacts the platforms you connect, the license service, and the price table hosted in this repository.
+- The app sends no analytics. It contacts the platforms you connect, the license service, the price table hosted in this repository, and this repository's releases to check for a newer version.
 - The full list is in [docs/privacy.md](docs/privacy.md).
 
 ## Supported versions

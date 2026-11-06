@@ -16,6 +16,7 @@ Short version: your data lives on your computer, there is no StudioSpend account
 1. **Balance requests to platforms you connect.** When you connect Runway, for example, StudioSpend asks Runway for your balance, the same way any app you sign in to would. It does this only for platforms you connected.
 2. **A license check.** The app asks our license service whether your license is valid, about once a day. The request carries your license key and a fingerprint of your computer used to count devices. It does not carry your spend data.
 3. **The public price table.** The app downloads a public file of plans, prices and credits per job from `files.studiospend.com`, about twice a day. The request does not identify you or say what you use.
+4. **An update check.** About twice a day the app asks GitHub, which hosts our releases, whether a newer version exists, and downloads it if there is one. GitHub sees an ordinary web request from your address; nothing about you or your plans is in it. To stop it, turn off **Look for updates automatically** in **Settings → General**.
 
 Nothing else is sent. There are no analytics, no crash reporting service and no advertising identifiers.
 

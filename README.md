@@ -104,7 +104,7 @@ You pay for five, ten, maybe fifteen creative-AI tools. Each has its own credits
 - What you enter lives in a database **on your computer**. There is no StudioSpend account and no analytics.
 - You sign in on **each platform’s own sign-in page**. StudioSpend never sees your password, and the access it is granted stays in your Mac’s Keychain or Windows Credential Manager.
 - StudioSpend only reads. It cannot generate anything, spend your credits or change a plan.
-- Three things leave your computer: balance requests to the platforms **you** connect, a license check, and a download of the public price table.
+- Four things leave your computer: balance requests to the platforms **you** connect, a license check, a download of the public price table, and a check for a newer version of the app.
 
 The full list, with where each file lives, is in [docs/privacy.md](docs/privacy.md).
 
