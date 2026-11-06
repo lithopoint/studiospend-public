@@ -5,8 +5,8 @@
 <h1 align="center">StudioSpend</h1>
 
 <p align="center">
-  <b>What you pay. What’s left. Where to make next.</b><br>
-  The menu-bar and tray app for Mac and Windows that keeps your creative-AI subscriptions straight.
+  <b>What you pay. What’s left. What to use first.</b><br>
+  The menu-bar and tray app for Mac and Windows that keeps your creative subscriptions straight.
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@
 
 <br>
 
-You pay for five, ten, maybe fifteen creative-AI tools. Each has its own credits, its own renewal date and its own idea of what a credit is. **StudioSpend** adds it all up, shows what is left on each plan in things you can picture, like “about 40 videos”, and tells you where to make your next video, image or track so the credits that are about to expire get used first.
+You pay for five, ten, maybe fifteen creative tools. Each has its own credits, its own renewal date and its own idea of what a credit is. **StudioSpend** adds it all up, shows what is left on each plan in things you can picture, like “about 40 videos”, and tells you which plan to use first, so the credits that are about to expire don’t go to waste. It’s a spending tracker: it makes nothing itself and sells no credits.
 
 ## What it does
 
@@ -72,7 +72,7 @@ You pay for five, ten, maybe fifteen creative-AI tools. Each has its own credits
     <td>
       <h3>Spend</h3>
       <p>Every plan, what it costs per month and per year, and what renews or ends its trial next.</p>
-      <p>Drop in a bank or card statement (CSV, OFX or QFX) and StudioSpend finds your creative-AI charges, including the platforms that have no connection at all. It also points out a smaller plan that would still cover you.</p>
+      <p>Drop in a bank or card statement (CSV, OFX or QFX) and StudioSpend finds your creative-subscription charges, including the platforms that have no connection at all. It also points out a smaller plan that would still cover you.</p>
     </td>
   </tr>
 </table>
@@ -96,7 +96,7 @@ You pay for five, ten, maybe fifteen creative-AI tools. Each has its own credits
 ### Also in the app
 
 - **Alerts.** A notification before credits reset unused, before a plan runs out early, before a renewal or a trial ends, and when you are on track to pass your monthly budget.
-- **Ask Claude.** On a Mac, add StudioSpend to Claude Desktop or Claude Code and ask where to make something. It answers from your own numbers and cannot change anything. [How to add it](docs/claude-connector.md).
+- **Ask Claude.** On a Mac, add StudioSpend to Claude Desktop or Claude Code and ask which plan covers a job. It answers from your own numbers and cannot change anything. [How to add it](docs/claude-connector.md).
 - **Move to another computer.** Your plans, payments and settings in one passphrase-locked file that you carry yourself.
 
 ## Private by design
