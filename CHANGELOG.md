@@ -2,6 +2,18 @@
 
 What changed in StudioSpend, in plain language, newest first. Each release's section is also its release notes on GitHub. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versions: `MAJOR.MINOR.PATCH`.
 
+## [1.0.1] - 2026-11-06
+
+### Added
+- **A way for AI platforms to ask to be added.** Settings → Help & feedback has a new choice, "I run an AI platform", for platform teams who want StudioSpend to read their plan. It sends nothing about your app or accounts.
+
+### Changed
+- Security and reliability improvements, including updated connection libraries and tighter limits on what the app's window can load and open.
+
+### Fixed
+- On Windows, an update could stop with "Error opening file for writing" if StudioSpend hadn't finished closing. The installer now waits for it.
+- A license key already on two computers now says so plainly when you try it on a third, and tells you what to do.
+
 ## [1.0.0] - 2026-11-04
 
 The first full release, for Mac and Windows. Free for 30 days, then $5 a month or $45 a year.

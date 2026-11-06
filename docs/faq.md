@@ -45,6 +45,9 @@ Platforms count credits differently, so StudioSpend turns them into jobs ("about
 **A platform I use is missing.**
 Tell us in **Settings → Help & feedback**. New platforms are added as they open official sign-in or a read-only balance.
 
+**I run an AI platform and want it added to StudioSpend.**
+Use **Settings → Help & feedback → I run an AI platform**, and on the form choose "I run an AI platform and want it added to StudioSpend". It asks for your company and platform name, your name and work email, a link to your API docs or MCP server if you have one, and what StudioSpend could read: a read-only balance or credits, an official sign-in (OAuth or MCP), or current plan prices. StudioSpend only reads; it never generates or spends on your platform.
+
 ## Trouble
 
 **macOS says it cannot verify StudioSpend.**
