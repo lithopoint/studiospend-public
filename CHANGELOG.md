@@ -2,6 +2,17 @@
 
 What changed in StudioSpend, in plain language, newest first. Each release's section is also its release notes on GitHub. Format: [Keep a Changelog](https://keepachangelog.com/en/1.1.0/). Versions: `MAJOR.MINOR.PATCH`.
 
+## [1.0.2] - 2026-11-15
+
+### Added
+- **A diagnostic report for support.** When something isn’t working, Settings → Help & feedback can save a text file with StudioSpend’s own technical log, what’s connected and what each platform last answered. You see the whole file before it’s saved, and nothing leaves your computer unless you attach it to your message. It never contains balances, charges, keys or account names.
+
+### Changed
+- Security hardening from an independent review of sign-in, updates and the Claude connector. Nothing you do changes; the review found no issue affecting your data.
+- A connection problem is now described in plain words and can never include details from your platform account.
+- When a platform doesn’t share usage on your plan, Accounts and the Connect sheet say so plainly, with no "Error details" section.
+- The Claude connector starts only a StudioSpend app whose signature it has checked.
+
 ## [1.0.1] - 2026-11-06
 
 ### Added
