@@ -1,6 +1,6 @@
 {
   "schema": 2,
-  "generated_at": "2026-11-04",
+  "generated_at": "2026-11-17",
   "revision": 1,
   "platforms": [
     {
@@ -85,8 +85,8 @@
       "parent": null,
       "wallet_label": null,
       "unit": "credits",
-      "unit_note": "≈ 1 credit per image, ≈ 20 per 720p video",
-      "pricing_url": "https://kling.ai/membership/membership-plan",
+      "unit_note": "≈ 1 credit per image, ≈ 20 per 720p video · Premier also sells 18K at $207 and 38K at $428 · API is a separate wallet",
+      "pricing_url": "https://kling.ai/app/membership/membership-plan",
       "plans": [
         {
           "name": "Standard",
@@ -110,10 +110,10 @@
           "verified": true
         },
         {
-          "name": "Ultra",
-          "monthly": 180.0,
+          "name": "Ultra+",
+          "monthly": 619.0,
           "annual": null,
-          "units_per_month": 26000.0,
+          "units_per_month": 57000.0,
           "verified": true
         }
       ]
@@ -132,25 +132,25 @@
       "pricing_url": "https://lumalabs.ai/dream-machine/pricing",
       "plans": [
         {
-          "name": "Lite",
-          "monthly": 9.99,
-          "annual": 6.66,
-          "units_per_month": 3200.0,
-          "verified": true
-        },
-        {
           "name": "Plus",
-          "monthly": 29.99,
-          "annual": 19.99,
-          "units_per_month": 10000.0,
-          "verified": true
+          "monthly": 30.0,
+          "annual": 25.0,
+          "units_per_month": null,
+          "verified": false
         },
         {
-          "name": "Unlimited",
-          "monthly": 94.99,
-          "annual": 63.33,
-          "units_per_month": 10000.0,
-          "verified": true
+          "name": "Pro",
+          "monthly": 90.0,
+          "annual": 75.0,
+          "units_per_month": null,
+          "verified": false
+        },
+        {
+          "name": "Ultra",
+          "monthly": 300.0,
+          "annual": 250.0,
+          "units_per_month": null,
+          "verified": false
         }
       ]
     },
@@ -295,27 +295,27 @@
       "wallet_label": null,
       "unit": "credits",
       "unit_note": null,
-      "pricing_url": "https://www.hedra.com/pricing",
+      "pricing_url": "https://www.hedra.com/play/pricing",
       "plans": [
         {
           "name": "Basic",
-          "monthly": 15.0,
+          "monthly": 20.0,
           "annual": null,
-          "units_per_month": 1500.0,
+          "units_per_month": 2000.0,
           "verified": true
         },
         {
-          "name": "Creator",
-          "monthly": 30.0,
+          "name": "Pro",
+          "monthly": 50.0,
           "annual": null,
-          "units_per_month": 5400.0,
+          "units_per_month": 7200.0,
           "verified": true
         },
         {
-          "name": "Professional",
-          "monthly": 75.0,
+          "name": "Ultra",
+          "monthly": 100.0,
           "annual": null,
-          "units_per_month": 14400.0,
+          "units_per_month": 18000.0,
           "verified": true
         }
       ]
@@ -370,25 +370,32 @@
       "pricing_url": "https://dreamina.capcut.com",
       "plans": [
         {
-          "name": "Standard",
-          "monthly": 5.0,
+          "name": "Basic",
+          "monthly": 15.0,
           "annual": null,
           "units_per_month": 1575.0,
-          "verified": false
+          "verified": true
         },
         {
-          "name": "Pro",
-          "monthly": 11.0,
+          "name": "Standard",
+          "monthly": 36.0,
           "annual": null,
           "units_per_month": 3885.0,
-          "verified": false
+          "verified": true
         },
         {
-          "name": "Max",
-          "monthly": 42.0,
+          "name": "Advanced",
+          "monthly": 159.0,
           "annual": null,
-          "units_per_month": 8645.0,
-          "verified": false
+          "units_per_month": 17600.0,
+          "verified": true
+        },
+        {
+          "name": "Ultra",
+          "monthly": 520.0,
+          "annual": null,
+          "units_per_month": 59000.0,
+          "verified": true
         }
       ]
     },
@@ -450,15 +457,15 @@
         },
         {
           "name": "Premium",
-          "monthly": 35.0,
-          "annual": 28.0,
+          "monthly": 43.0,
+          "annual": null,
           "units_per_month": 4000.0,
           "verified": false
         },
         {
           "name": "Ultimate",
-          "monthly": 99.0,
-          "annual": 79.0,
+          "monthly": 115.0,
+          "annual": null,
           "units_per_month": 8000.0,
           "verified": false
         }
@@ -897,7 +904,7 @@
         {
           "name": "Basic",
           "monthly": 9.0,
-          "annual": 5.0,
+          "annual": 5.25,
           "units_per_month": 5000.0,
           "verified": true
         },
@@ -911,7 +918,7 @@
         {
           "name": "Max",
           "monthly": 105.0,
-          "annual": 63.0,
+          "annual": 54.0,
           "units_per_month": 60000.0,
           "verified": true
         }
@@ -1342,17 +1349,24 @@
         },
         {
           "name": "Core",
-          "monthly": 30.0,
-          "annual": 25.0,
+          "monthly": 35.0,
+          "annual": 26.0,
           "units_per_month": 15000.0,
-          "verified": true
+          "verified": false
         },
         {
           "name": "Plus",
-          "monthly": 65.0,
-          "annual": 55.0,
+          "monthly": 79.0,
+          "annual": 59.0,
           "units_per_month": 35000.0,
-          "verified": true
+          "verified": false
+        },
+        {
+          "name": "Ultra",
+          "monthly": 199.0,
+          "annual": 149.0,
+          "units_per_month": null,
+          "verified": false
         }
       ]
     },
@@ -1780,18 +1794,18 @@
       "pricing_url": "https://www.capcut.com/pricing",
       "plans": [
         {
-          "name": "Standard",
-          "monthly": 9.99,
-          "annual": null,
-          "units_per_month": null,
-          "verified": false
-        },
-        {
           "name": "Pro",
           "monthly": 19.99,
           "annual": 15.0,
           "units_per_month": null,
           "verified": false
+        },
+        {
+          "name": "Ultra",
+          "monthly": 79.0,
+          "annual": null,
+          "units_per_month": 8645.0,
+          "verified": true
         }
       ]
     },
@@ -2238,6 +2252,20 @@
       "unit": "USD",
       "unit_note": "Add funds first at platform.lumalabs.ai; balance shows there only · Uni-1 image $0.04",
       "pricing_url": "https://docs.agents.lumalabs.ai/guides/pricing/",
+      "plans": []
+    },
+    {
+      "id": "kling_api",
+      "name": "Kling API",
+      "category": "Model hubs",
+      "color": "#60a5fa",
+      "connector": null,
+      "prepaid": true,
+      "parent": "kling",
+      "wallet_label": "API wallet",
+      "unit": "USD",
+      "unit_note": "Prepaid packages expire after 180 days · Kling 4.0 ≈ $0.15/sec at 720p (1 unit = $0.154)",
+      "pricing_url": "https://kling.ai/dev/pricing",
       "plans": []
     },
     {
