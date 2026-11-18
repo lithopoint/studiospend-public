@@ -1,7 +1,7 @@
 {
   "schema": 2,
   "generated_at": "2026-11-17",
-  "revision": 1,
+  "revision": 2,
   "platforms": [
     {
       "id": "runway",
@@ -265,21 +265,21 @@
       "parent": null,
       "wallet_label": null,
       "unit": "credits",
-      "unit_note": "≈ 120 credits per minute of avatar video",
+      "unit_note": "≈ 100 credits per finished minute of avatar video · plans give credits per year (Starter 15,000, Pro 72,000)",
       "pricing_url": "https://www.synthesia.io/pricing",
       "plans": [
         {
           "name": "Starter",
-          "monthly": 29.0,
-          "annual": 18.0,
-          "units_per_month": 1200.0,
+          "monthly": 19.0,
+          "annual": 14.0,
+          "units_per_month": 1250.0,
           "verified": true
         },
         {
-          "name": "Creator",
+          "name": "Pro",
           "monthly": 89.0,
-          "annual": 64.0,
-          "units_per_month": 3600.0,
+          "annual": 59.0,
+          "units_per_month": 6000.0,
           "verified": true
         }
       ]
@@ -940,21 +940,21 @@
         {
           "name": "Creator",
           "monthly": 20.0,
-          "annual": 17.0,
+          "annual": 18.0,
           "units_per_month": 20000.0,
           "verified": false
         },
         {
           "name": "Growth",
           "monthly": 50.0,
-          "annual": 43.0,
+          "annual": 45.0,
           "units_per_month": 50000.0,
           "verified": false
         },
         {
           "name": "Professional",
           "monthly": 110.0,
-          "annual": 93.0,
+          "annual": 99.0,
           "units_per_month": 110000.0,
           "verified": false
         }
@@ -1120,7 +1120,7 @@
         {
           "name": "Studio",
           "monthly": null,
-          "annual": 33.25,
+          "annual": 41.58,
           "units_per_month": 300.0,
           "verified": true
         },
